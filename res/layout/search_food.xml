@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:orientation="vertical"
+    android:background="#FFEBCD">
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="12dip"
+    >
+    	<EditText 
+    	    android:id="@+id/search_text"
+    	    android:layout_width="match_parent"
+    		android:layout_height="36dip"
+    		android:layout_toLeftOf="@+id/search_button"
+    		android:layout_marginLeft="23dip"
+    		android:textColorHint="#AAAAAA"  
+    		android:hint="请输入要搜索的关键字"
+    	 	android:background="@drawable/bg_edittext"  
+    	 	android:singleLine="true"
+    	/>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dp"
+            android:text="搜索" />
+        
+	</RelativeLayout>
+	
+    <ListView 
+     	  android:id="@+id/search_list"
+    	  android:layout_width="match_parent"
+    	  android:layout_height="wrap_content"
+    	  android:cacheColorHint="#00000000"  
+    	  android:layout_marginTop="5dip"
+    ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cookApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list">cookApp</string>
+    <string name="title_activity_tab_show">cookApp</string>
+    <string name="title_activity_food_classify">cookApp</string>
+    <string name="title_activity_second_food_clasify">cookApp</string>
+    <string name="title_activity_food_show">cookApp</string>
+    <string name="title_activity_food_cook_detail">cookApp</string>
+    <string name="title_activity_search_food">cookApp</string>
+    <string name="title_activity_food_local">cookApp</string>
+    <string name="title_activity_wlecome">cookApp</string>
+
+</resources>
